@@ -1,0 +1,174 @@
+/* montserrat-alternates-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-alternates-v17-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-alternates-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/montserrat-alternates-v17-latin-500italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-alternates-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-alternates-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v31-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+img {
+  object-fit: cover;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* cards */
+
+.user-card {
+  padding: 175px;
+  padding: 175px;
+  padding-right: 420px;
+  padding-left: 420px;
+  display: flex;
+  background-color: #f2eae2;
+}
+.user-card__cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ffffff;
+}
+.user-card__imagas {
+  width: 300px;
+  height: 450px;
+}
+.user-card-icon {
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.user-card__title {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  line-height: 15px;
+  font-size: 12px;
+  padding-top: 32px;
+  padding-right: 177px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+  color: #6c7289;
+}
+.user-card__text {
+  font-family: "Fraunces",sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 32px;
+  color: #1c232b;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.user-card__slogan {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  line-height: 23px;
+  font-size: 14px;
+  color: #6c7289;
+  padding-bottom: 29px;
+
+  padding-left: 30px;
+}
+.user-card__container {
+  display: flex;
+  gap: 19px;
+  padding-left: 30px;
+  align-items: center;
+  /* padding-bottom: 29px; */
+}
+
+.user-card__container-text {
+  font-family:"Fraunces",sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3d8168;
+  /* padding-bottom: 29px; */
+}
+.user-card__container-title {
+  font-family: "Montserrat",sans-serif;
+    
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  color: #6c7289;
+}
+.user-card__container__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-card__icon {
+  background-color: #1c232b;
+  
+}
+.user-card__container__link {
+  font-family: "Montserrat",sans-serif;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #3d8168;
+  padding-left: 62px;
+  padding-right: 62px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  &:active {
+    background-color:#1A4032;
+    
+    
+  }
+}
